@@ -1,6 +1,8 @@
 ---
 testspace:
+title: Hello Manual
 ---
+
 # Hello Manual
 This is a manual test.
 
