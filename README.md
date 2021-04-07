@@ -13,7 +13,7 @@ The Tutorial is organized into **three sections**:
 
 - Publishing automated test results
 - Manual basics such as *running*, *implementing*, *issues*, and *sessions*
-- Advanced topics such as *Exploratory*, *Automated Fixturing*, *Variables and *Includes*, etc.
+- Advanced topics such as *Exploratory*, *Automated Fixturing*, *Variables and Includes*, etc.
 
 
 ## Content
