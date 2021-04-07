@@ -1,5 +1,6 @@
 ---
 testspace:
+title: Use Setup Fixture
 before:
   name: github::fixture
   description: example input

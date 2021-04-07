@@ -1,5 +1,6 @@
 ---
 testspace:
+title: Syntax Examples
 ---
 
 # Syntax Examples
