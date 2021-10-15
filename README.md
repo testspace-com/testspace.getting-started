@@ -33,6 +33,6 @@ root
 ```
 
 Other repo files content (i.e. `Gemfile`, `handler.js`, etc.) are used for the advanced topics such as:
-- [Automated Fixturing](https://help.testspace.com/docs/tutorial/fixture)
-- [Variables and Includes](http://help.testspace.com/docs/tutorial/var-inc)
-- [Using Jekyll](http://help.testspace.com/docs/manual/desktop-preview) for local spec development and review
+- [Automated Fixturing](https://help.testspace.com/tutorial/fixture)
+- [Variables and Includes](http://help.testspace.com/tutorial/var-inc)
+- [Using Jekyll](http://help.testspace.com/manual/desktop-preview) for local spec development and review
