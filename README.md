@@ -1,7 +1,7 @@
 # Getting Started
 This tutorial **repo** focuses on GitHub users that are first-time **Testspace users**. It provides a reference project to walk-through to get new users up to speed on how Testspace works.
 
-Refer to the [Help Tutorial](https://help.testspace.com/docs/tutorial/setup) for instructions.
+Refer to the [Help Tutorial](https://help.testspace.com/tutorial/setup) for instructions.
 
 ## Tutorial
 This repo includes (i) a *CI workflow file* used to `publish automated test results` and (ii) a set of *Test Specs* used for `manual execution`.
