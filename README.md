@@ -25,6 +25,9 @@ root
               └─ ci.yml
   └─ specs
       └─ hello.md
+      └─ syntax.examples.md
+      └─ use.setup.fixture.md
+      └─ vars.and.include.md
   ├─ .testspace.yml
   └── results.xml
 ```
@@ -32,4 +35,4 @@ root
 Other repo files content (i.e. `Gemfile`, `handler.js`, etc.) are used for the advanced topics such as:
 - [Automated Fixturing](https://help.testspace.com/tutorial/fixture)
 - [Variables and Includes](http://help.testspace.com/tutorial/var-inc)
-- [Using Jekyll](http://help.testspace.com/manual/implementation-spec#spec-preview) for local spec development and review
+- [Using Jekyll](http://help.testspace.com/manual/desktop-preview) for local spec development and review
