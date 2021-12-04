@@ -1,0 +1,28 @@
+name: Testspace
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Function name'
+        required: true
+      payload:
+        description: 'Function input-payload'
+        required: true
+      context:
+        description: 'Function execution-context'
+        required: true
+env:
+  IN_NAME:    ${{ github.event.inputs.name }}
+  IN_PAYLOAD: ${{ github.event.inputs.payload }}
+  IN_CONTEXT: ${{ github.event.inputs.context }}
+jobs:
+  fixture:
+    if: github.event.inputs.name == 'fixture'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: Call Script implementing setup fixture
+        run: node ./.github/workflows/handler.js 

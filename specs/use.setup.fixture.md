@@ -4,12 +4,14 @@ title: Use Setup Fixture
 before:
   name: github::fixture
   description: example input
-  input: 
+  payload: 
     a: one
     b: two
 ---
 
-# Use Setup Fixture
+{% if page %} {% assign spec = page %} {% endif %}
+
+# {{ spec.title }}
 This is a manual test.
 
 ## Test Case One

@@ -23,6 +23,7 @@ The required repo files, used by the *Publishing* and *Manual basics* sections a
 root
   └─ .github/workflows
               └─ ci.yml
+              └─ testspace.yml
   └─ specs
       └─ hello.md
       └─ syntax.examples.md

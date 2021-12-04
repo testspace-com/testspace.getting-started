@@ -1,6 +1,7 @@
 function handler(payload) {
-    var input = JSON.parse(payload);
-    console.log("Input: ", input.a, input.b);
+
+    console.log("SETUP Handler running ..");
+    console.log("Payload: ", payload.a, payload.b);
 }
 
-handler(process.argv[2]);
+handler(JSON.parse(process.env.IN_PAYLOAD));

@@ -3,7 +3,9 @@ testspace:
 title: Syntax Examples
 ---
 
-# Syntax Examples
+{% if page %} {% assign spec = page %} {% endif %}
+
+# {{ spec.title }}
 Some basic sytax reference examples.
 
 ## Lists

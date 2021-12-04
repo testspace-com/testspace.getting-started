@@ -11,5 +11,5 @@ jobs:
           domain: ${{ github.repository_owner }}
       - name: Push result to Testspace server
         run: |
-          testspace results.xml 
+          testspace "[automated results]results.xml"
         if: always()
