@@ -7,7 +7,7 @@ Refer to the [Help Tutorial](https://help.testspace.com/tutorial/setup) for inst
 This repo includes (i) a *CI workflow file* used to `publish automated test results` and (ii) a set of *Test Specs* used for `manual execution`.
 
 **IMPORTANT.** If you `fork` this repo, you are required to enable both `Actions` and `Issues` in the new repo.
-
+ 
 ## Outline
 The Tutorial is organized into **three sections**:
 
