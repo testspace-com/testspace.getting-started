@@ -4,5 +4,6 @@ defaults:
     values:
       layout: "default"
 theme: just-the-docs
+search_enabled: false
 remote_theme: pmarsceill/just-the-docs
 logo: "/testspace.png"
